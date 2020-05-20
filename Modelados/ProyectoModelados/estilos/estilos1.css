@@ -1,0 +1,189 @@
+ body {
+            background-image: url("./../Background/sombrero.jpg");
+            background-repeat: repeat;
+            align-items: center;
+       
+        }
+       
+        .padre {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor {
+    background-color: white;
+     height: 470px;
+     width: 380px;
+    border-radius: 10px;
+    text-align: center;
+    border-style: solid;
+}
+.contenedor1 {
+    background-color: rgba(255,255,255,.9);
+     height: 2900px;
+     width: 800px;
+    border-radius: 10px;
+    border-style: solid;
+
+}.contenedor2 {
+    background-color: white;
+     height: 450px;
+     width: 380px;
+    border-radius: 10px;
+    text-align: center;
+    border-style: solid;
+
+}.contenedor3 {
+    background-color: white;
+     height: 250px;
+     width: 300px;
+    border-radius: 18px;
+    text-align: center;
+     padding: 1em 1em;
+}
+        input[type="text"], input[type="password"]{
+            border-radius: 6px;
+            width: 200px;
+            height: 30px;
+            
+        }input[type="text"]:hover, input[type="password"]:hover{
+            border-radius: 6px;
+            width: 200px;
+            height: 30px;
+            background: whitesmoke;
+            
+        }input[type="submit"]:hover, button:hover{
+            border-radius: 8px;
+            width: 200px;
+            background-color: orange;
+            border-color: orange;
+            height: 30px;
+            color: yellow;
+            
+        }
+        input[type="submit"], button{
+            border-radius: 8px;
+            width: 200px;
+            background-color: yellow;
+            border-color: yellow;
+            height: 30px;
+            color: orange;
+            
+        }
+td{
+  width: 1500px; /*Aquí va el ancho de la Celda*/
+height: 10px; /*Aquí el Alto*/
+font-family: arial,sans-serif;
+text-align: center;
+background-color: transparent;
+} input[type="button"]{
+            border-radius: 8px;
+            width: 500px;
+            background-color: red;
+            border-color: red;
+            height: 45px;
+            color: white;
+            font-size: 35px;
+            
+        }input[type="button"]:hover{
+            border-radius: 8px;
+            width: 500px;
+            background-color: white !important;
+            border-color: red;
+            height: 45px;
+            color: #3ba6de;
+            
+        }
+        h1,h2, h4, label, a{
+            font-family: sans-serif,arial;
+            
+        }.cancelar{
+            
+            color: grey;
+            text-decoration: none;
+            
+        }a{
+            text-decoration: none;
+        }.error{
+            color: red;
+        }/*tr{
+            background-color: white;
+        }*/
+ #verPlatillos{
+     background-color: #3ba6de;
+     border-color: black;
+ }
+ #Categorias{
+    background-color: white;
+    border-radius: 10px;
+            width: 200px;
+            border-color:black;
+            height: 40px;
+            color: #3ba6de;
+            font-size: large;
+            margin-left: 380px;
+
+ }
+ #Categorias:hover{
+    background-color: #3ba6de;
+    border-radius: 10px;
+            width: 200px;
+            border-color:black;
+            height: 40px;
+            color: white ;
+            font-size: large;
+ }
+ #Buscador{
+     width: 200px;
+     height: 30px;
+     border-radius: 5px;
+     border-style: solid;
+    text-align: center;
+    font-size: large;
+    margin-left: 10px;
+ }
+ #logout{
+     color: #3ba6de;
+ }
+ #logout:hover{
+     color: rgba(233, 45, 45, 0.952);
+ }
+ #logout1{
+     color: red;
+     margin-left: 600px;
+     background:white;
+ }
+ #logout1:hover{
+    color: rgba(61, 0, 0, 0.952);
+}
+#iniciar:hover{
+    margin-top: 10px;
+    width: 200px;
+     height: 30px;
+     border-radius: 5px;
+     border-style: solid;
+    text-align: center;
+    font-size: large;
+    background-color: #3ba6de;
+    border-color: black;
+    color: white;
+}
+#iniciar{
+    margin-top: 10px;
+    width: 200px;
+     height: 30px;
+     border-radius: 5px;
+     border-style: solid;
+    text-align: center;
+    font-size: large;
+    background-color: white;
+    border-color: black;
+    color: #3ba6de;
+}
+#inp{
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid;
+}

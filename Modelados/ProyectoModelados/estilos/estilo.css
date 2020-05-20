@@ -1,0 +1,116 @@
+ body {
+            background-image: url("./../Background/sombrero.jpg");
+            align-items: center;
+       
+        }
+       
+        .padre {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor {
+    background-color: white;
+     height: 470px;
+     width: 380px;
+    border-radius: 10px;
+    text-align: center;
+}
+.contenedor1 {
+
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 5px 5px 30px;
+    width: 1100px;
+}
+.contenedor2 {
+    background-color: white;
+     height: 450px;
+     width: 380px;
+    border-radius: 10px;
+    text-align: center;
+}.contenedor3 {
+    background-color: white;
+     height: 250px;
+     width: 300px;
+    border-radius: 20px;
+    text-align: center;
+     padding: 1em 1em;
+}
+        input[type="text"], input[type="password"]{
+            border-radius: 6px;
+            width: 200px;
+            height: 30px;
+            
+        }input[type="text"]:hover, input[type="password"]:hover{
+            border-radius: 6px;
+            width: 200px;
+            height: 30px;
+            background: whitesmoke;
+            
+        }input[type="submit"]:hover, button:hover{
+            border-radius: 8px;
+            width: 200px;
+            background-color: orange;
+            border-color: orange;
+            height: 30px;
+            color: yellow;
+            
+        }
+        input[type="submit"], button{
+            border-radius: 8px;
+            width: 200px;
+            background-color: yellow;
+            border-color: yellow;
+            height: 30px;
+            color: orange;
+            
+        }
+td{
+  width: 1500px; /*Aquí va el ancho de la Celda*/
+height: 10px; /*Aquí el Alto*/
+font-family: arial,sans-serif;
+text-align: center;
+} input[type="button"]{
+            border-radius: 8px;
+            width: 500px;
+            background-color: red;
+            border-color: red;
+            height: 45px;
+            color: white;
+            font-size: 35px;
+            
+        }input[type="button"]:hover{
+            border-radius: 8px;
+            width: 500px;
+            background-color: white;
+            border-color: red;
+            height: 45px;
+            color: red;
+            
+        }
+        h1,h2, h4, label, a{
+            font-family: sans-serif,arial;
+            
+        }.cancelar{
+            
+            color: grey;
+            text-decoration: none;
+            
+        }a{
+            text-decoration: none;
+            font-size: 2em;
+            font-weight: bolder;
+        }.error{
+            color: red;
+        }tr{
+            background-color: white;
+        }
+        img{
+            width: 300px;
+                
+        }
+   
